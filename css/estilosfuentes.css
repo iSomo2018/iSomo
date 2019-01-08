@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url(menu.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #D2D2D2;
+}
+header{
+	width:100%;
+	background: #909497;
+	color:#FA4C00;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#contenedor{
+	width: 100%;
+	margin: auto;
+}
+header h1{
+	float:left;
+}
+h1 a{
+	text-decoration: none;
+	color: #FA4C00;
+}
+h1{
+	display: block;
+	padding: 9.8px;
+}
+header #contenedor{
+	display: block;
+}
+
+#alimentacion{
+	margin-top: 75px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#foto{
+	width: 350px;
+	height: 350px;
+	margin-left: 4%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	position: relative;
+	float: left;
+}
+
+.info{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: rgba(103, 103, 103, 0.8);
+	opacity: 0;
+}
+
+.info h2{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	color: orange;
+}
+
+.info ul{
+	list-style: none;
+	color: white;
+}
+
+.info ul li{
+	margin: 10px;
+}
+
+.info p{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
+main section img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.info:hover{
+	opacity: 1;
+	border: solid 2px rgb(254, 55, 2);
+	transition: all 0.3s;
+}
+
+footer{
+	height: 30px;
+	width: 100%;
+	background: #909497;
+	padding: 7px;	
+	bottom: 0;
+}
+footer section{
+	font-size: 13px;
+	text-align: center;
+}
+

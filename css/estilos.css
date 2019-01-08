@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url(menu.css);
+@import url(banner.css);
+@import url(slider.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #D2D2D2;
+}
+header{
+	width:100%;
+	background: #909497;
+	color:#FA4C00;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#contenedor{
+	width: 100%;
+	margin: auto;
+}
+header h1{
+	float:left;
+}
+h1 a{
+	text-decoration: none;
+	color: #FA4C00;
+}
+h1{
+	display: block;
+	padding: 9.8px;
+}
+header #contenedor{
+	display: block;
+}
+#introduccion h2{
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 30px;
+}
+#introduccion p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	text-align: justify; 
+}
+
+#cuadro_imagenes{
+	display: block; 
+	margin-left: 20px;
+	margin-right: 20px;
+	float: right;
+}
+
+#imagen img{
+	border: solid 1px;
+	margin-left: 20px;
+}
+
+#contacto{
+	list-style: none;
+	margin-top: 20px;
+}
+#contacto li{
+	margin-left: 60px;
+	margin-bottom: 15px;
+	display: inline;
+}
+
+footer{
+	height: 30px;
+	background: #909497;
+	display: block;
+	padding: 7px;
+}
+footer section{
+	font-size: 13px;
+	text-align: center;
+}

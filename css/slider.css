@@ -1,0 +1,46 @@
+
+.slider{
+	border: solid 1px;
+	width: 390px;
+	height: 390px;
+	position:relative;
+	z-index: 50;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: #FFFFFF;
+
+}
+.slider img{
+	border: solid 1px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	transition: all 0.7s;
+	padding: 30px;
+	opacity: 0;
+}
+.slider input[type="radio"]{
+	display: none
+}
+.slider input[type="radio"]:checked ~ img {
+	opacity: 1;
+}
+.slider input[type="radio"] + label{
+	position: relative;
+	z-index: 100;
+	margin: 10px;
+
+	display: block;
+	width: 15px;
+	height: 15px;
+	background:  #FA4C00;
+	cursor: pointer;	
+}
+
+
+
+
